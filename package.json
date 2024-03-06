@@ -1,11 +1,11 @@
 {
   "name": "add-sugar",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "addSugar.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npm install axios dotenv && copy ./node_modules/add-sugar/addSugar.js ./addSugar.js && node addSugar.js"
+    "preinstall": "npm install axios dotenv && copy ./node_modules/add-sugar/addSugar.js ../addSugar.js && node ../addSugar.js"
   },
   "repository": {
     "type": "git",
