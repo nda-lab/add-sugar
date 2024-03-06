@@ -1,0 +1,28 @@
+{
+  "name": "add-sugar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "addSugar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm install axios dotenv && node addSugar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nda-lab/add-sugar.git"
+  },
+  "keywords": [
+    "ci",
+    "cd"
+  ],
+  "author": "oakba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nda-lab/add-sugar/issues"
+  },
+  "homepage": "https://github.com/nda-lab/add-sugar#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5"
+  }
+}
