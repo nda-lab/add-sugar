@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "npm install axios dotenv",
-    "postinstall": "cd .. && node node_modules/add-sugar/addSugar.js"
+    "postinstall": "cd .. && cd .. && node node_modules/add-sugar/addSugar.js"
   },
   "repository": {
     "type": "git",
