@@ -1,6 +1,6 @@
 {
   "name": "add-sugar",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "",
   "main": "addSugar.js",
   "scripts": {
